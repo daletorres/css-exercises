@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+
 }
 
 .title {
@@ -23,4 +24,70 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+} 
+
+/* MY CHANGES */
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 32px 52px;
+  gap: 52px;
+}
+
+.img-1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
+}
+.item-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
+}
+
+.item-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
+}
+
+.item-4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
 }

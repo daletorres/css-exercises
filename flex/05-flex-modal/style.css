@@ -67,3 +67,40 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+ /* MY CHANGES */
+
+ .modal {
+  padding: 15px;
+ }
+
+ .card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 4px;
+  margin-left: 3rem;
+
+ }
+
+ .top{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ }
+
+ .header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 12px;
+ }
+
+ .text { 
+  text-align: left;
+  margin-bottom: 0.5rem;
+ }
+
+ .close-button {
+  margin-left: auto;
+ }

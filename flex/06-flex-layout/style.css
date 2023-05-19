@@ -25,3 +25,48 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+ 
+/* My Changes */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  padding: 8px;
+}
+
+a:link, a:visited, a:hover, a:active { 
+    text-decoration: none;
+    color: gray;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer{
+  background-color: #eeeeee;
+  position: fixed;
+  bottom: 0;
+  width: 98%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
